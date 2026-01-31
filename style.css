@@ -62,6 +62,10 @@ select:valid {
   border: 2px solid green;
 }
 
+input [type="datetime-local"]:focus:invalid {
+  border: 2px solid red;
+}
+
 .thead-padding {
   padding: 30px 20px 10px 20px;
 }
